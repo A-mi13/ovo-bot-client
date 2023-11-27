@@ -1,0 +1,49 @@
+/*!*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[12].oneOf[9].use[3]!./node_modules/next/dist/build/webpack/loaders/resolve-url-loader/index.js??ruleSet[1].rules[12].oneOf[9].use[4]!./node_modules/next/dist/compiled/sass-loader/cjs.js??ruleSet[1].rules[12].oneOf[9].use[5]!./styles/reputation.module.scss ***!
+  \*************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************************/
+@media (max-width: 600px) {
+  .reputation_reputations_table___iuuO {
+    overflow-y: auto;
+  }
+  .reputation_reputations_table___iuuO table {
+    width: 600px;
+  }
+}
+
+.reputation_full_name__p78C1 {
+  position: relative;
+}
+.reputation_full_name__inner__odJe_ {
+  position: absolute;
+  top: 3px;
+  left: 2px;
+}
+.reputation_full_name__inner__odJe_ img {
+  margin-right: 10px;
+}
+
+.reputation_tg_cly1__RXudI {
+  position: relative;
+  height: 40px;
+}
+
+.reputation_line__iZwsn {
+  position: absolute;
+  left: 0;
+  top: 0;
+  float: left;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(90deg, rgba(255, 255, 255, 0.0470588235) 0px, rgba(247, 96, 234, 0.7607843137) 40px, rgba(255, 255, 255, 0.0470588235) 80px);
+  background-size: 600px;
+  animation: reputation_shine-lines__6RUm1 1s infinite ease-out;
+}
+
+@keyframes reputation_shine-lines__6RUm1 {
+  0% {
+    background-position: -100px;
+  }
+  100% {
+    background-position: 140px;
+  }
+}
